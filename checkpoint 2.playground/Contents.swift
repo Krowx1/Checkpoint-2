@@ -1,11 +1,12 @@
 import Cocoa
 
 var greeting = "Hello, playground"
+
 let album = ["Make believe", "The Blue Album", "The Green Album"]
-album.count
 
-let regiment = ["Scouts", "Garrison", "MP"]
-regiment.count
+print; album.count
+let albumsUnique = Set(album)
 
-let shifter = ["Attack", "jaw", "war hammer", "armored", "colossal", "female", "cart", "founding", "beast"]
-shifter.count
+print (albumsUnique)
+print (albumsUnique.count)
+
